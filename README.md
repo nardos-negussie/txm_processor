@@ -18,7 +18,7 @@ A Python package for efficient processing of TXM (3D volume) files with real-tim
 ```bash
 git clone https://github.com/nardos-negussie/txm_processor.git
 cd txm-processor
-pip install -e .
+python -m pip install -e .
 ```
 
 
@@ -27,7 +27,17 @@ To fix error during import xrmreader , i.e, the `dxchange.writer` issue, please 
 ```bash
 git clone https://github.com/data-exchange/dxchange.git
 cd dxchange
-pip install -e .
+python -m pip install -e .
+```
+
+### Dependencies
+
+- numpy
+- scikit-image
+```bash
+git clone https://github.com/data-exchange/dxchange.git
+cd dxchange
+python -m pip install -e .
 ```
 
 ### Dependencies
@@ -36,7 +46,7 @@ pip install -e .
 - scikit-image
 git clone https://github.com/data-exchange/dxchange.git
 cd dxchange
-pip install -e .
+python -m pip install -e .
 
 this fixed it. could you please mention the error (during import xrmreader the dxchange.writer issue)
 
