@@ -16,7 +16,7 @@ A Python package for efficient processing of TXM (3D volume) files with real-tim
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/txm-processor.git
+git clone https://github.com/nardos-negussie/txm_processor.git
 cd txm-processor
 pip install -e .
 ```
