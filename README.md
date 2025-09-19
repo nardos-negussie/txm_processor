@@ -16,18 +16,15 @@ A Python package for efficient processing of TXM (3D volume) files with real-tim
 ### From source
 
 ```bash
-git clone https://github.com/nardos-negussie/txm_processor.git
-cd txm-processor
-python -m pip install -e .
+python -m pip install  git+https://github.com/nardos-negussie/txm_processor.git
 ```
 
 
 To fix error during import xrmreader , i.e, the `dxchange.writer` issue, please follow these steps:
 
 ```bash
-git clone https://github.com/data-exchange/dxchange.git
-cd dxchange
-python -m pip install -e .
+python -m pip install git+https://github.com/data-exchange/dxchange.git
+
 ```
 
 ### Dependencies
