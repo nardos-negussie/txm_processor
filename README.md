@@ -31,11 +31,7 @@ python -m pip install git+https://github.com/data-exchange/dxchange.git
 
 - numpy
 - scikit-image
-```bash
-git clone https://github.com/data-exchange/dxchange.git
-cd dxchange
-python -m pip install -e .
-```
+
 
 ### Dependencies
 
